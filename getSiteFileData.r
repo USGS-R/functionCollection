@@ -12,9 +12,6 @@
 #' siteINFO <- getSiteFileData('05114000',interactive=FALSE)
 getSiteFileData <- function(siteNumber="",interactive=TRUE){
   
-  # Checking for 8 digit site ID:
-  siteNumber <- formatCheckSiteNumber(siteNumber, interactive=interactive)
-  
   urlSitefile <- paste("http://waterservices.usgs.gov/nwis/site?format=rdb&siteOutput=Expanded&sites=",siteNumber,sep = "")
   
   SiteFile <- read.delim(  
