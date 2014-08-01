@@ -53,7 +53,7 @@
   {\thesubsubsection}{0.5em}{}
   
 \titlecontents{section}
-[2.3em]                 % adjust left margin
+[2em]                 % adjust left margin
 {\sffamily}             % font formatting
 {\contentslabel{2.3em}} % section label and offset
 {\hspace*{-2.3em}}
